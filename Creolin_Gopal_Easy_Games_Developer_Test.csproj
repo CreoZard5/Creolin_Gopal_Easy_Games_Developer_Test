@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="btn_create_transaction.png" />
+    <None Remove="btn_edit_transaction.png" />
+    <None Remove="btn_filter_transaction.png" />
+    <None Remove="btn_sort_transaction.png" />
+    <None Remove="easyGames.png" />
+    <None Remove="easyGamesDevText_bg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="btn_create_transaction.png" />
+    <Resource Include="btn_edit_transaction.png" />
+    <Resource Include="btn_filter_transaction.png" />
+    <Resource Include="btn_sort_transaction.png" />
+    <Resource Include="easyGames.png" />
+    <Resource Include="easyGamesDevText_bg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

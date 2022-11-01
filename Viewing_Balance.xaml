@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="Creolin_Gopal_Easy_Games_Developer_Test.Viewing_Balance"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Creolin_Gopal_Easy_Games_Developer_Test"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="300" Background="#BF3612">
+    <Border>
+        <Grid>
+            <TextBlock Text="Balance" VerticalAlignment="Top" FontFamily="Lucida Bright" HorizontalAlignment="Left" TextAlignment="Center" TextWrapping="Wrap" FontSize="15" Foreground="#F2E2AA" Padding="10" Margin="10" />
+            <TextBlock Text="{Binding Text}" VerticalAlignment="Center" FontFamily="Lucida Bright" HorizontalAlignment="Center" TextAlignment="Center" TextWrapping="Wrap" FontSize="20" Foreground="#F2E2AA" Padding="10" Margin="10" />
+
+        </Grid>
+    </Border>
+</UserControl>
